@@ -1,0 +1,27 @@
+{
+  "name": "@apeswapfinance/apeswap-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ApeSwap Monorepo",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/iceymann18777/apeswap-monorepo#readme",
+  "repository": "git@github.com:iceymann18777/apeswap-monorepo.git",
+  "bugs": {
+    "url": "https://github.com/iceymann18777/apeswap-monorepo/issues"
+  },
+  "engines": {
+    "node": ">=12.10"
+  },
+  "contributors": [
+    "Adam khader <apwswap>"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach --parallel --verbose  run build",
+    "lint": "yarn workspaces foreach --parallel --verbose run lint",
+    "test": "yarn workspaces foreach --parallel --verbose run test"
+  },
+  "workspaces": [
+    "pkg/*",
+    "pvt/*"
+  ]
+}
