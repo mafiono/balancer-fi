@@ -181,7 +181,7 @@ jobs:
         run: yarn workspace @balancer-labs/v2-distributors test
 
   test-gauges:
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install node
