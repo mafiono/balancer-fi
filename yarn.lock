@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@apeswapfinance/apeswap-swap-v2-monorepo@workspace:.":
+"@apeswapfinance/apeswap-monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@apeswapfinance/apeswap-swap-v2-monorepo@workspace:."
+  resolution: "@apeswapfinance/apeswap-monorepo@workspace:."
   languageName: unknown
   linkType: soft
 
