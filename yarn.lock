@@ -161,7 +161,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -278,7 +278,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -312,7 +312,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -374,7 +374,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -415,7 +415,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -456,7 +456,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -497,7 +497,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -539,7 +539,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -578,7 +578,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -615,7 +615,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -656,7 +656,7 @@ __metadata:
     prettier: ^2.1.2
     prettier-plugin-solidity: v1.0.0-alpha.59
     solhint: ^3.2.0
-    solhint-plugin-prettier: ^0.0.4
+    solhint-plugin-prettier: ^0.1.0
     ts-node: ^8.10.2
     typescript: ^4.0.2
   languageName: unknown
@@ -1817,6 +1817,15 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: d178d86a0a96e5aa12e6d70c00d50eb3bb9a58c0cf1c36e1d7f240acb4ae3f14642c6314659c438ea409a509f08c2a62e29c9346a033e554c3f6921cdb293219
+  languageName: node
+  linkType: hard
+
+"@prettier/sync@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@prettier/sync@npm:0.3.0"
+  peerDependencies:
+    prettier: ^3.0.0
+  checksum: 94745d9249994ba22b67d7c2abb302bd725506141788dd92bfec6d5dfacbe1354a48ac8c4b51a567c5075c1bcaffae760cae823b15f731274fd49d88981ca17b
   languageName: node
   linkType: hard
 
@@ -12004,15 +12013,16 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"solhint-plugin-prettier@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "solhint-plugin-prettier@npm:0.0.4"
+"solhint-plugin-prettier@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "solhint-plugin-prettier@npm:0.1.0"
   dependencies:
+    "@prettier/sync": ^0.3.0
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
-    prettier: ^1.15.0
-    prettier-plugin-solidity: ^1.0.0-alpha.14
-  checksum: 09c862fe9a2bf40817a648904306a8cf94ae58e64af1b29744352f8ef24398a33ef19ec65e94a6705cc745904275f0eaa8f2677004062d86c906f172edcd0dce
+    prettier: ^3.0.0
+    prettier-plugin-solidity: ^1.0.0
+  checksum: 6f4aa6bf036ff36b9be0913906c07d86fdba21e1b5ebc384caac897ca5a8fc6e8f51126d10d85913c7e636fef73eec2cde2fdcb387730269e7026d7e52c7fe4d
   languageName: node
   linkType: hard
 
