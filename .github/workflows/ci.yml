@@ -11,7 +11,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -51,7 +51,7 @@ jobs:
   test-solidity-utils:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -73,7 +73,7 @@ jobs:
   test-standalone-utils:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -95,7 +95,7 @@ jobs:
   test-vault:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -117,7 +117,7 @@ jobs:
   test-pools:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -139,7 +139,7 @@ jobs:
   test-asset-managers:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -161,7 +161,7 @@ jobs:
   test-distributors:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -183,7 +183,7 @@ jobs:
   test-gauges:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
@@ -205,7 +205,7 @@ jobs:
   benchmark:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install node
         uses: actions/setup-node@v1
         with:
