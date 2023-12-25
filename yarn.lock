@@ -159,7 +159,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -276,7 +276,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -310,7 +310,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -372,7 +372,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -413,7 +413,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -454,7 +454,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -495,7 +495,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -537,7 +537,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -576,7 +576,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -613,7 +613,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -654,7 +654,7 @@ __metadata:
     mocha: ^8.2.1
     nodemon: ^2.0.4
     prettier: ^2.1.2
-    prettier-plugin-solidity: v1.0.0-alpha.59
+    prettier-plugin-solidity: 1.3.1
     solhint: ^3.2.0
     solhint-plugin-prettier: ^0.0.4
     ts-node: ^8.10.2
@@ -2048,10 +2048,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solidity-parser/parser@npm:^0.8.1":
-  version: 0.8.2
-  resolution: "@solidity-parser/parser@npm:0.8.2"
-  checksum: 1540b53214bae22177b2de25cc74f7aeddca4abc2e5942b5d34f9669cba7c052c90b2cd85b0ec973a4a71a864c70f6d8bdeeb922e46d7e8411c64a35fb670ab1
+"@solidity-parser/parser@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@solidity-parser/parser@npm:0.17.0"
+  checksum: d501d8423217a9a4dd0ec988a12282354e3edc9c5e09a1c5e22c99bd2b403f8fa73e3d6f093c81ffc00b7c3d6c9e234d653123ff3cdc51cb703b34d94186b98d
   languageName: node
   linkType: hard
 
@@ -5144,13 +5144,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dir-to-object@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "dir-to-object@npm:2.0.0"
-  checksum: 068d215ae05bd5d2f4b86ea2e05fa256c5d1793b8a5fc5da886c96924691195e9e7783accc9ea3c4be88a48149dddeaaa1caa99e03aeeecb51d8c9f2c7949f40
-  languageName: node
-  linkType: hard
-
 "doctrine@npm:^3.0.0":
   version: 3.0.0
   resolution: "doctrine@npm:3.0.0"
@@ -5244,13 +5237,6 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: 87cf3f89efb8ba028075b3dc1713e2c5609af94cbc129b1f00c3113d01dbe4bf85c9d971e75a98bf8a8508131727682ce929e4bd70e9022af4fd47d75e9507de
-  languageName: node
-  linkType: hard
-
-"emoji-regex@npm:^9.0.0":
-  version: 9.2.2
-  resolution: "emoji-regex@npm:9.2.2"
-  checksum: f3029ec432745ecb7cf5dcea1bc9ad3d70714ef20fcae1dc87a422d3be68913c42ed3adbb86765e7aa6c723c3bcd5833b5f4e22ed06d5e5cb74e0f628d4fc95b
   languageName: node
   linkType: hard
 
@@ -5442,7 +5428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-string-regexp@npm:4.0.0, escape-string-regexp@npm:^4.0.0":
+"escape-string-regexp@npm:4.0.0":
   version: 4.0.0
   resolution: "escape-string-regexp@npm:4.0.0"
   checksum: c747be8d5ff7873127e3e0cffe7d2206a37208077fa9c30a3c1bb4f26bebd081c8c24d5fba7a99449f9d20670bea3dc5e1b6098b0f074b099bd38766271a272f
@@ -5637,15 +5623,6 @@ __metadata:
     acorn-jsx: ^5.3.1
     eslint-visitor-keys: ^1.3.0
   checksum: ff8e0f73939e1e76529b630cba65b6128e4d18ed7bf0b16af62022cadc73ddb950c7e5aa629cca74e8abebdf76f6dcd1cf873dbc819f10599827c6019e2f8e91
-  languageName: node
-  linkType: hard
-
-"esprima-extract-comments@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "esprima-extract-comments@npm:1.1.0"
-  dependencies:
-    esprima: ^4.0.0
-  checksum: 00c4f369d72da77d4c40a405e140f4c2e95663364a7508b1c52c0aaf6eb099ba80a07558be6e0b899739ab782d583a15e4426b30dd73015faae6a68acd5231e0
   languageName: node
   linkType: hard
 
@@ -6445,16 +6422,6 @@ __metadata:
     snapdragon: ^0.8.1
     to-regex: ^3.0.1
   checksum: ce23be772ff536976902aa0193a6d167abad229ca40fb4c1de2fd71c0116eeae168a02f6508d41382eb918fcbafb66dba61d498754051964a167c98210c62b28
-  languageName: node
-  linkType: hard
-
-"extract-comments@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "extract-comments@npm:1.1.0"
-  dependencies:
-    esprima-extract-comments: ^1.1.0
-    parse-code-context: ^1.0.0
-  checksum: a6b72ca6a6bfa0d64e9e90fc5f56755c28e780c4ec224fcee5db89f06c7db286379666036b1b65b1508f375dd471dc7ec1351a8ebf58eb7f81c6879a0c3fc74f
   languageName: node
   linkType: hard
 
@@ -10355,13 +10322,6 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"parse-code-context@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "parse-code-context@npm:1.0.0"
-  checksum: 6b48af0bf85a631d900e4b94322048e5661fbbea63748c223bba9fcc1ba9393cd07b569ad50d261b230d4e63a01f703d9fc90a76793c50a8df66cb37e37b790f
-  languageName: node
-  linkType: hard
-
 "parse-headers@npm:^2.0.0":
   version: 2.0.3
   resolution: "parse-headers@npm:2.0.3"
@@ -10659,19 +10619,16 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"prettier-plugin-solidity@npm:v1.0.0-alpha.59":
-  version: 1.0.0-alpha.59
-  resolution: "prettier-plugin-solidity@npm:1.0.0-alpha.59"
+"prettier-plugin-solidity@npm:1.3.1":
+  version: 1.3.1
+  resolution: "prettier-plugin-solidity@npm:1.3.1"
   dependencies:
-    "@solidity-parser/parser": ^0.8.1
-    dir-to-object: ^2.0.0
-    emoji-regex: ^9.0.0
-    escape-string-regexp: ^4.0.0
-    extract-comments: ^1.1.0
-    prettier: ^2.0.5
-    semver: ^7.3.2
-    string-width: ^4.2.0
-  checksum: 960e8173392e6ca944064794f4b147489c1f0789d944bcaa82056ffdd2b4150b92be2d02ae4a485332244519bea4224e52fd2c9ba3d63beb07940b7f4a7ee028
+    "@solidity-parser/parser": ^0.17.0
+    semver: ^7.5.4
+    solidity-comments-extractor: ^0.0.8
+  peerDependencies:
+    prettier: ">=2.3.0"
+  checksum: dfc82e531c22123822ee3314efde28b2eb4b21223a5a290ce03e25fb052a8eba45cd9ece06cfcfa689c3cd46e286ff76f7facd33df1fdb0acfb04f3bce8f4ea0
   languageName: node
   linkType: hard
 
@@ -10684,7 +10641,7 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5, prettier@npm:^2.1.2":
+"prettier@npm:^2.1.2":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
   bin:
@@ -11661,6 +11618,17 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 9bc02fd8e2b3c9e5dea66f0d733a3c801c67f3c7f0190efa03112a7b516e39845456ae107214d7972c4be9c67bbc50c0f27bbaf49a79a0234de83717cdaf2058
+  languageName: node
+  linkType: hard
+
 "semver@npm:~5.4.1":
   version: 5.4.1
   resolution: "semver@npm:5.4.1"
@@ -12041,6 +12009,13 @@ fsevents@~2.1.1:
   bin:
     solhint: solhint.js
   checksum: 863dc93f9f9d1ab2d09e6fc630ddb90d3c395b79ff977cdfae38f7a759dd70aa6e1410354891224b364a1947b821bf7fad3f5f7c9634abe9efca576f74e2a675
+  languageName: node
+  linkType: hard
+
+"solidity-comments-extractor@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "solidity-comments-extractor@npm:0.0.8"
+  checksum: ca5500766bea8d74649067fbb77794e717dd91f4e224993caefef13d07f8bdc368f34089b07676a35ed378317017df9cba5953e995ed7523b34d762c3ccfbcd7
   languageName: node
   linkType: hard
 
