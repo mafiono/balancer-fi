@@ -221,7 +221,7 @@ __metadata:
     "@balancer-labs/v2-helpers": "workspace:*"
     "@nomiclabs/hardhat-ethers": ^2.0.1
     "@nomiclabs/hardhat-etherscan": latest
-    "@solidity-parser/parser": ^0.14.0
+    "@solidity-parser/parser": ^0.18.0
     "@types/node": ^14.6.0
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
@@ -2045,6 +2045,13 @@ __metadata:
   dependencies:
     antlr4ts: ^0.5.0-alpha.4
   checksum: 13f000a8f403f3345b1d587d00f873af627768e7a13037e953eccbf41ee99f4e65e3e058f378ee2dc110a790e8beadc18c954b7169c6ef8b4b999ec200cc24d2
+  languageName: node
+  linkType: hard
+
+"@solidity-parser/parser@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@solidity-parser/parser@npm:0.18.0"
+  checksum: 96dc027994ff0ced004500072a2ecdf9ec4f2dacdac11a7b61f6f9cbfe85bcc1431c69fbb760576ab2dbc5d7f55049cdcbceea8b25f8220adfea0a686b7a506a
   languageName: node
   linkType: hard
 
