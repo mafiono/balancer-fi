@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -57,7 +57,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -79,7 +79,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -101,7 +101,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -123,7 +123,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -145,7 +145,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -167,7 +167,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -189,7 +189,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: "**/node_modules"
@@ -211,7 +211,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache
         with:
           path: '**/node_modules'
