@@ -40,7 +40,7 @@
     "eslint": "^7.9.0",
     "eslint-plugin-prettier": "^3.1.4",
     "hardhat": "^2.8.3",
-    "hardhat-local-networks-config-plugin": "0.0.5",
+    "hardhat-local-networks-config-plugin": "0.0.6",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",
     "ts-node": "^8.10.2",
